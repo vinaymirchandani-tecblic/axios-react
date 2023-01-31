@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { Component } from "react";
+import { FetchNews } from "./components/FetchNews";
+import { About } from "./components/About";
+import { BrowserRouter as Router } from "react-router-dom";
+import Taptap from "./components/Taptap";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      demo: "Taptap",
+    };
+  }
+
+  buttonClickHandler = () => {
+    this.State({ message: "Hello,I'm in Taptap" });
+    // alert("hello");
+    console.log(this.props);
+  };
+
+  render() {
+    return (
+      <div className="App">
+        {/* <Taptap /> */}
+        <Router>
+          <FetchNews />
+        </Router>
+        {/* <About /> */}
+      </div>
+    );
+  }
 }
 
 export default App;
