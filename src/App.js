@@ -3,6 +3,7 @@ import { FetchNews } from "./components/FetchNews";
 import { About } from "./components/About";
 import { BrowserRouter as Router } from "react-router-dom";
 import Taptap from "./components/Taptap";
+import { NavBar } from "./components/NavBar";
 
 class App extends Component {
   constructor(props) {
@@ -23,7 +24,7 @@ class App extends Component {
       <div className="App">
         {/* <Taptap /> */}
         <Router>
-          <FetchNews />
+          <NavBar />
         </Router>
         {/* <About /> */}
       </div>

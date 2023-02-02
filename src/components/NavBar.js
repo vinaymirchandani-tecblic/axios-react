@@ -5,6 +5,8 @@ import { About } from "./About";
 import { Entertainment } from "./Entertainment";
 import { Sports } from "./Sports";
 import { FetchNews } from "./FetchNews";
+import { Home } from "./Home";
+
 export const NavBar = () => {
   return (
     <div>
@@ -51,6 +53,7 @@ export const NavBar = () => {
         </div>
       </nav>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/entertainment" element={<Entertainment />} />
         <Route path="/sports" element={<Sports />} />
