@@ -25,7 +25,7 @@ export const Home = () => {
   return (
     <div>
       {/* <NavBar /> */}
-      <p onClick={() => setIsRefres(true)}>refresh</p>
+      <p onClick={() => setIsRefres(true)}></p>
       <div className="container mt-5">
         <div className="row">
           {news.length === 0 && <p>Loading....</p>}
@@ -42,8 +42,8 @@ export const Home = () => {
                     <div className="card-body">
                       <h5 className="card-title">{value.title}</h5>
                       <p className="card-text">{value.description}</p>
-                      <a href="/" className="btn btn-primary">
-                        {value.url}
+                      <a href={value.url} className="btn btn-primary">
+                        Read more
                       </a>
                     </div>
                   </div>

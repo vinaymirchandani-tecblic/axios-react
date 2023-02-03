@@ -1,0 +1,46 @@
+.tag{
+    color:#909;
+    margin-top: 3px;
+    background-color: bisque;
+    background-image: url("./img1.png");
+    background-repeat: repeat-y;
+    background-attachment: no-repeat;
+    background-position: center;
+    border: ridge;
+    border-width: 5px;
+    border-radius: 20% 10% 30% 40%;
+    background: lightgreen;
+
+}
+
+
+.tag2{
+    border: 5px dashed red;
+
+}
+
+.tag2::first-line{
+    color: crimson;
+}
+
+
+div.gallery{
+    margin: 10px;
+    border: solid 1px #bb0c0c;
+    width: 260px;
+    float: left;
+}
+div.gallery :hover{
+    border: 1px solid grey;
+}
+div.gallery img{
+    width: 100%;
+}
+div.desc{
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
