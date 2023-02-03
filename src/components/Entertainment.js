@@ -63,6 +63,6 @@ export const Entertainment = () => {
 </div>
 <div className="gallery">
 <img src="./images/img1.png" alt="img1"/>
-<div className="desc">Culpa fugiat elit officia magna est laborum dolor.Sunt tempor id id pariatur commodo exercitation laborum quis nisi in nostrud fugiat. </div>
+<div className="desc">Culpa fugiatIpsum excepteur in nostrud fugiat. elit officia magna est laborum dolor.Sunt tempor id id pariatur commodo exercitation laborum quis nisi in nostrud fugiat. </div>
 </div>
 </div>};
