@@ -4,19 +4,23 @@ export const About = () => {
   return (
     
       <div className="container">
-        <h2 className="heading">  My Portfolio</h2>
+        <div className="left-text">
+        <h2 className="heading">  My Portfolio</h2> 
         <p className="subheading"> Focus on object</p>
-        <div className="box" id="box-1">"box-1"</div>
-        <div className="box" id="box-2">"box-2"</div>
-        <div className="box" id="box-3">"box-3"</div>
-        <div className="box" id="box-4">"box-4"</div>
-        <div className="box" id="box-5">"box-5"</div>
-        <div className="box" id="box-6">"box-6"</div>
-        <div className="box" id="box-7">"box-7"</div>
-        <div className="box" id="box-8">"box-8"</div>
-        <div className="box" id="box-9">"box-9"</div>
-        <div className="box" id="box-10">"box-10"</div>
+        </div>
+        <div className="gallery">
+
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-1"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-2"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-3"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-4"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-5"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-6"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-7"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-8"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-9"</div>
+        <div className="box" style={{backgroundImage:'url(https://unsplash.com/photos/udhWy81-Yv4)'}}>"box-10"</div>
       </div>
-    
+      </div>
   );
 };
