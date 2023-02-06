@@ -1,6 +1,6 @@
 import { color } from "@mui/system";
 import React from "react";
-import "./Ent.css"
+// import "./Ent.css"
 
 export const Entertainment = () => {
   const myStyle ={
